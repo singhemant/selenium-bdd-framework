@@ -1,4 +1,4 @@
-package com.autosel.testRunner;
+package com.pepboys.testRunner;
 
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		monochrome = true, 
 		features = { "classpath:features" }, 
-		glue = {"com.autosel.stepDefinitions" }, 
+		glue = {"com.pepboys.stepDefinitions" }, 
 		tags = { "@smoke" }, 
 		plugin = {"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/cucumber-extent/report.html" }
 
