@@ -1,6 +1,5 @@
 #Author: singh.hemant@live.com
 #Sample Feature Definition Template
-@smoke
 Feature: Revise Cucumber framework
   I want to use this template for my feature file
 
